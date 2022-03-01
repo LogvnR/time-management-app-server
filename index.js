@@ -30,6 +30,26 @@ app.post('/createUser', async (req, res) => {
   res.json(user);
 });
 
+app.post('/edit/:id/time/:index', async (req, res) => {
+  const id = req.params.id;
+  const index = Number(req.params.index);
+  const body = req.body;
+
+  const updatedUser = await UserModel.updateOne(
+    { _id: id },
+    { $set: { [`time.${index}`]: body } }
+  );
+  res.json(updatedUser);
+});
+
 app.listen(3001, () => {
   console.log('SERVER RUNNING ON PORT 3001');
 });
+
+// (err, result) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log(result);
+//   }
+// }
