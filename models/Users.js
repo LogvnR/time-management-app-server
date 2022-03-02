@@ -14,6 +14,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -23,6 +24,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -32,6 +34,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -41,6 +44,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -50,6 +54,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -59,6 +64,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -68,6 +74,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -77,6 +84,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -86,6 +94,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -95,6 +104,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -104,6 +114,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
     {
       month: String,
@@ -113,6 +124,7 @@ const UserSchema = new mongoose.Schema({
       returnVisits: Number,
       bibleStudies: Number,
       isDisabled: Boolean,
+      dateSubmitted: String,
     },
   ],
 });
